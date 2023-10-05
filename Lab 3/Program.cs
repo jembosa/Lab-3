@@ -7,9 +7,7 @@ namespace Lab_3
     {
         public static void Main(string[] args)
         {
-            int i;
-            DataTable MyTable = new DataTable(); // 1
-            DataTable MyTableByName = new DataTable("MyTableName"); // 2
+            int i;            
             string stoploop = "";
 
             while (stoploop == "")
